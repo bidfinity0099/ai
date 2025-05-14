@@ -23,7 +23,7 @@ export default function ChatPage() {
       const data = await res.json();
       setMessages([...newMessages, { role: 'assistant', content: data.message }]);
     } catch (err) {
-      console.error('Eroare:', err);
+      console.error('Eroare la trimiterea întrebării:', err);
     }
 
     setLoading(false);

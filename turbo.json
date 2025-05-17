@@ -42,7 +42,11 @@
         "SENTRY_PROJECT",
         "TOGETHER_AI_API_KEY",
         "VERCEL_URL",
-        "XAI_API_KEY"
+        "XAI_API_KEY",
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET",
+        "NEXTAUTH_SECRET",
+        "NEXTAUTH_URL"
       ],
       "outputs": [
         "dist/**",
